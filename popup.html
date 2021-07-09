@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<link rel="stylesheet" href="echidna.css">
+    </head>
+    <body>
+	<input id="queryme" type="text">
+	<p><span id="instancecounter">0</span> instances</p>
+	<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">read about selectors</a>
+	<div id="suggestions">
+	    <div id="suggestions-classes" class="suggestion-list">
+		<p>CLASSES</p>
+	    </div>
+	    <div id="suggestions-types" class="suggestion-list">
+		<p>LABELS</p>
+	    </div>
+	</div>
+
+	
+	<template id="suggest_atom">
+	    <p class="suggestion-hint"></p>
+	</template>
+	<script src="popup.js"></script>
+
+    </body>
+</html>

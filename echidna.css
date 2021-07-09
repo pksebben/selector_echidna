@@ -1,0 +1,33 @@
+:root {
+    --main-bg-color: #FFDBB1;
+    --main-fg-color: #2133BE;
+}
+
+#queryme {
+    background_color: var(--main-bg-color);
+    color: var(--main-fg-color);
+}
+
+.suggestion-hint {
+    background_color: var(--main-bg-color);
+    color: var(--main-fg-color);
+}
+
+#suggestions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.suggestion-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 3px;
+}
+
+.suggestion-hint {
+    margin: 0;
+    padding: 0;
+    flex-basis: fit-content; 		/*fit-content?*/
+}
